@@ -1,0 +1,27 @@
+
+Testing APN Server :
+---------------------
+
+
+Step 1:
+--------
+
+$ cd ~/Desktop/
+$ openssl x509 -in aps_development.cer -inform der -out PushChatCert.pem
+$ openssl pkcs12 -nocerts -out PushChatKey.pem -in PushChatKey.p12
+Enter Import Password: 
+MAC verified OK
+Enter PEM pass phrase: 
+Verifying - Enter PEM pass phrase:
+
+
+Step 2:
+-------
+$ cat PushChatCert.pem PushChatKey.pem > ck.pem
+
+
+-------------------------------------------------------------
+
+$ telnet gateway.sandbox.push.apple.com 2195
+
+$openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert PushChatCert.pem -key PushChatKey.pem

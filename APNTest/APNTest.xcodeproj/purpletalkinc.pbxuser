@@ -1,0 +1,118 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* APNTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1212, 1349}}";
+			sepNavSelRange = "{150, 73}";
+			sepNavVisRange = "{43, 782}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* APNTest */ = {
+		activeExec = 0;
+		executables = (
+			FEBA664E10B55527008191A4 /* APNTest */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* APNTestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 377}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FEBA664E10B55527008191A4 /* APNTest */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* APNTest */;
+		codeSenseManager = FEBA665B10B55528008191A4 /* Code sense */;
+		executables = (
+			FEBA664E10B55527008191A4 /* APNTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					652,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 280323855;
+			PBXWorkspaceStateSaveDate = 280323855;
+		};
+		perUserProjectItems = {
+			FEBA666010B555FE008191A4 = FEBA666010B555FE008191A4 /* PBXBookmark */;
+			FEBA666110B555FE008191A4 = FEBA666110B555FE008191A4 /* PlistBookmark */;
+		};
+		sourceControlManager = FEBA665A10B55528008191A4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FEBA664E10B55527008191A4 /* APNTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = APNTest;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	FEBA665A10B55528008191A4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	FEBA665B10B55528008191A4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FEBA666010B555FE008191A4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* APNTest-Info.plist */;
+	};
+	FEBA666110B555FE008191A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* APNTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/purpletalkinc/Desktop/Programs/APNTest/APNTest-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}
